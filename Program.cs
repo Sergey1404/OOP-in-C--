@@ -40,8 +40,8 @@ namespace OOP_in_C_ {
             PDF_Format[2].Password = "";
             PDF_Format[2].Size = "18 Mb";
             PDF_Format[2].PrintValues();
+            
             PDF_Format.Add(new PDF());
-
             PDF_Format[3].Name = "Raspberry Pi для секретных агентов";
             PDF_Format[3].Author = "Стефан Шогелид";
             PDF_Format[3].Theme = "Raspberry Pi";
